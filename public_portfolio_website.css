@@ -1,0 +1,13 @@
+/* makes sure body text stays black */
+.body
+{
+ color: black;
+}  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: rgb(0, 0, 0);
+    border-bottom: 4px solid  rgb(115, 255, 0);
+    /*border: 5px solid  rgb(115, 255, 0);*/
+    height: 100px;
+    flex: 1;
+  }
